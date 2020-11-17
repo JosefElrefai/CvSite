@@ -1,0 +1,60 @@
+@import '../../styles/config';
+@import '../../styles/functions';
+@import '../../styles/utilities';
+
+.header{
+    height: 100vh;
+    >.container{
+
+        margin: auto;
+
+        .header-content{
+            // color: $dark-2;
+            text-align: center;
+            .home-title{
+                margin-top: 10vh;
+                text-align: center;
+                font-size: 2.8rem;
+                font-weight: 300;
+            }
+            .lead{
+                font-weight: 300;
+                font-size: 1.4rem;
+                margin-top: 1rem;
+            }
+
+            .bio-grid{
+                margin-top: 3.5rem;
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-row: 1fr;
+                gap: 1rem;
+                
+                .bio{
+                    display: flex;
+                    // flex-direction: column;
+                    height: 100%;
+                    background-color: $light-2;
+                    border-left: 2px solid $secondary-color;
+
+                    >p{
+                        text-align: left;
+                        align-self: center;
+                    }
+                }
+            }
+
+            .main-img{
+                background: url("./josefel.jpg") no-repeat center 20% / cover;
+                min-height: 200px;
+            }
+
+            .avatar{
+                margin-left: 10rem;
+                justify-self: right;
+                width: 100%;
+                max-width: 260px;
+            }
+        }
+    }
+}

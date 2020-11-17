@@ -1,0 +1,14 @@
+@import 'styles/config';
+@import 'styles/functions';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    height: 5000px;
+}

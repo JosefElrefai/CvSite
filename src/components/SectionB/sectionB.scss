@@ -1,0 +1,52 @@
+@import '../../styles/config';
+@import '../../styles/functions';
+@import '../../styles/utilities';
+
+
+#section-b{
+    >.container{
+        text-align: center;
+
+        .lead{            
+            margin-bottom: 2rem;
+        }
+
+        .cards{
+            display: flex;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+
+            .card{
+                flex: 1;
+                padding: 1rem 1.2rem;
+                border-right: 1px solid $light-1 ;
+
+                >.card-title{
+                    text-transform: uppercase;
+                    font-weight: 300;
+                    margin: .4rem 0;
+                    margin-top: 1rem;
+                }
+
+                >p{
+                    
+                    // font-size: .62rem;
+                }
+
+                >i{
+                    color: white;
+                    padding: .9rem;
+                    background-color: #F72585;
+                    border-radius: 50%;
+                }
+
+                
+            }
+
+            .card:last-child{
+                border: none;
+            }
+        }
+
+    }
+}

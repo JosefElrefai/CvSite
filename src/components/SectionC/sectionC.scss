@@ -1,0 +1,136 @@
+@import '../../styles/config';
+@import '../../styles/functions';
+@import '../../styles/utilities';
+
+
+#section-c{
+    background-color: $light-2;
+    color: set-text-color($light-2);
+    text-align: center;
+
+    .lead{
+        margin-bottom: 2rem;
+    }
+
+    .progress{
+        // text-transform: uppercase;
+
+        
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        
+        >.box{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color:$light-2;
+
+            >.percent{
+                position: relative;
+                width: 56px;
+                height: 56px;
+
+                >svg{
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+
+                    >circle{
+                        width: 100%;
+                        height: 100%;
+                        fill: white;
+                        stroke-width: 3;
+                        stroke: #000;
+                        transform: translate(5px,5px);
+                        stroke-dasharray: 140;
+                        stroke-dashoffset: 140;
+                    }
+                    circle:nth-child(1){
+                        stroke-dashoffset: 0;
+                        stroke: white;
+                    }
+                    circle:nth-child(2){
+                        stroke-dashoffset: calc(140 - (140 * 87) / 100);
+                        stroke: $secondary-color;
+                        stroke-linecap: round;
+                    }
+                }
+
+                .html{
+                    circle:nth-child(2){
+                        stroke-dashoffset: calc(140 - (140 * 99) / 100);
+                    }
+                }
+                .css{
+                    circle:nth-child(2){
+                        stroke-dashoffset: calc(140 - (140 * 85) / 100);
+                    }
+                }
+                .javascript{
+                    circle:nth-child(2){
+                        stroke-dashoffset: calc(140 - (140 * 90) / 100);
+                    }
+                }
+                .sass{
+                    circle:nth-child(2){
+                        stroke-dashoffset: calc(140 - (140 * 95) / 100);
+                    }
+                }
+                .npm{
+                    circle:nth-child(2){
+                        stroke-dashoffset: calc(140 - (140 * 70) / 100);
+                    }
+                }
+
+                >.number{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #568EA3;
+
+                    >h2{
+                        font-size: 1rem;
+                        >span{
+                            font-size: .7rem;
+                        }
+                    }
+                }
+            }
+
+            .progress-title{
+                margin-bottom: 1rem;
+                font-weight: 300;
+                text-transform: uppercase;
+
+            }
+            
+        }
+        // p{
+        //     font-weight: 300;
+        //     margin-top: 100px;
+        // }
+        
+        // i{
+        //     border: 3px solid $secondary-color;
+        //     padding: 1rem;
+        //     background-color: white;
+        //     border-radius: 50%;
+
+        //     color: $secondary-color;
+        // }
+
+
+
+
+    }
+}

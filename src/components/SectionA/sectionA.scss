@@ -1,0 +1,10 @@
+@import '../../styles/config';
+@import '../../styles/functions';
+@import '../../styles/utilities';
+
+#section-a{
+    font-size: 1rem; //fixa
+    text-align: center;
+    background-color: $light-2;
+    color: set-text-color($light-2);
+}
