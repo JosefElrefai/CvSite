@@ -11,10 +11,16 @@ const SectionA = () => {
                     </h4>
 
                     <p className="p-2">
-                    As a person i am very driven and curious, and 
-                    have ever since i was a child had a big interest 
-                    for math and problem solving, which i know is a 
-                    winning combination when it comes to programming. 
+                    As a person I am very driven and curious, and 
+                    have ever since I was a child had a big interest 
+                    for math and problem solving. I have an overall 
+                    positive attitude and I'm not afraid of challenges 
+                    that come my way. Other qualities I hold is that 
+                    I'm constanly looking to improve on my skills and 
+                    that I'm a fast learner. In addition to that I have 
+                    no problems working in a high tempo, taking 
+                    responsibility and initiative. 
+
                     </p>
                 </div>
             </div>

@@ -15,7 +15,7 @@ const Header = () => {
                         Deveolper, Engineer, Freelancer
                     </h1>
                     <h4 className="lead">
-                        I like to code and some more stuffs
+                        I write code and I love what I do
                     </h4>
 
                     <div className="bio-grid px-2">
@@ -25,11 +25,12 @@ const Header = () => {
                             <p className="p-1">
                                 I'm a front-end deveolper specializing in React JS.
                                 Because of my great passion for programming, I'm more of
-                                a coder than a designer, but that does not mean i do not 
-                                appreciate good design. I have an engineerig background in 
+                                a programmer than a designer (doesn't mean i do not 
+                                appreciate good design). I have an engineerig background in 
                                 Mechatronichs and during my studies for that i got in touch with
-                                machine-near programming such as C programming and programming 
-                                microprocessors
+                                machine-near programming such as coding in C and programming 
+                                microprocessors which sparked my interest for coding and 
+                                what led me to specialize in Web Development.
                             </p>
                         </div>
                     </div>
